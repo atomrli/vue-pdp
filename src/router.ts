@@ -1,16 +1,16 @@
-import { createRouter, createWebHistory } from "vue-router";
-import CharactersPage from './views/Characters.vue'
+import { createRouter, createWebHistory } from 'vue-router';
+import CharactersPage from './views/Characters.vue';
 
 const routes = [
   {
     path: '/characters',
-    component: CharactersPage
-  }
-]
+    component: CharactersPage,
+  },
+];
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;

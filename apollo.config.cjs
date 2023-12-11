@@ -3,9 +3,6 @@ module.exports = {
     service: {
       url: 'https://rickandmortyapi.com/graphql',
     },
-    includes: [
-      'src/**/*.vue',
-      'src/**/*.js',
-    ],
+    includes: ['src/**/*.vue', 'src/**/*.js'],
   },
-}
+};

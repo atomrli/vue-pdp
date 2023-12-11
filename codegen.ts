@@ -1,4 +1,4 @@
-import type { CodegenConfig } from '@graphql-codegen/cli'
+import type { CodegenConfig } from '@graphql-codegen/cli';
 
 const config: CodegenConfig = {
   schema: 'https://rickandmortyapi.com/graphql',
@@ -8,11 +8,11 @@ const config: CodegenConfig = {
     './src/gql/': {
       preset: 'client',
       config: {
-        useTypeImports: true
-      }
-    }
+        useTypeImports: true,
+      },
+    },
   },
   hooks: { afterAllFileWrite: ['prettier --write'] },
-}
- 
-export default config
+};
+
+export default config;
